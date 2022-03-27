@@ -43,7 +43,7 @@ Restart=on-abort
 [Install]
 WantedBy=multi-user.target
 ```
-* Sau đó dùng lệnh để nó tự bật lúc server start : `sudo systemctl enable elasticsearch`
-* Start service bằng lệnh: `sudo systemctl start elasticsearch`
+* Sau đó dùng lệnh để nó tự bật lúc server start : `sudo systemctl enable keycloak`
+* Start service bằng lệnh: `sudo systemctl start keycloak`
 * Kiểm tra status của service bằng lệnh: `sudo systemctl status keycloak`
  ![](step_5.PNG)
