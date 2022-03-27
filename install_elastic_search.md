@@ -6,5 +6,6 @@
  * Thực hiện start elasticsearch:
    * `cd /app/programs/elasticsearch-8.1.1/bin `
    * `./elasticsearch`
-   * Sau khi chạy thì elastic sẽ print ra password ở màn hình console:
+   * Sau khi chạy thì elastic sẽ print ra password ở màn hình console, username mặc định của elastic là 
+   `elastic` và mật khẩu chính là ở console đó, như ở trong ví dụ mật khẩu là vùng bôi đỏ trên ảnh:
    * ![](step_1.PNG)
