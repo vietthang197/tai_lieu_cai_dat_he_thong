@@ -22,6 +22,8 @@ WantedBy=default.target
    ```
  * Sau đó dùng lệnh để nó tự bật lúc server start : `systemctl enable elasticsearch`
  * Start service bằng lệnh: `systemctl start elasticsearch`
+ * Kiểm tra status của service bằng lệnh: `systemctl status elasticsearch`
+ ![](step_4.PNG)
  ## Tạo service chạy bằng account root (keycloak hay một số thằng khác)
  * Chuyển về account root bằng lệnh: `su - root` rồi nhập mật khẩu root vào
  * Dùng Vim hoặc là Winscp tạo file ở trên thư mục: `/etc/systemd/system`, giả sử muốn tạo service keycloak thì sẽ tạo file: `keycloak.service`
@@ -43,3 +45,5 @@ WantedBy=multi-user.target
 ```
 * Sau đó dùng lệnh để nó tự bật lúc server start : `sudo systemctl enable elasticsearch`
 * Start service bằng lệnh: `sudo systemctl start elasticsearch`
+* Kiểm tra status của service bằng lệnh: `sudo systemctl status keycloak`
+ ![](step_5.PNG)
