@@ -8,6 +8,8 @@
    * `./elasticsearch`
    * Sau khi chạy thì elastic sẽ print ra password ở màn hình console, username mặc định của elastic là 
    `elastic` và mật khẩu chính là ở console đó, như ở trong ví dụ mật khẩu là vùng bôi đỏ trên ảnh:
-   * ![](step_1.PNG)
+   ![](step_1.PNG)
    * Nếu như bạn bỏ qua hoặc quên mật khẩu, hãy chạy script reset lại mật khẩu elasticsearch:
-   * `/app/programs/elasticsearch-8.1.1/bin/elasticsearch-reset-password`
+    `/app/programs/elasticsearch-8.1.1/bin/elasticsearch-reset-password`
+   * Truy cập vào trang : https://localhost:9200/ điền account: elastic/4vY+*0HCL1Cc5Tr7ZqSA màn hình sẽ hiển thị như sau:
+   ![](step_2.PNG)
