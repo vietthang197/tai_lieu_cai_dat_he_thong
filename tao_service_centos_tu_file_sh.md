@@ -5,7 +5,7 @@
  * Dùng Vim hoặc là Winscp tạo file ở trên thư mục : `/usr/lib/systemd/system`, giả sử muốn tạo service cho elasticsearch, 
  ta sẽ tạo file : `elasticsearch.service` => file có đường dẫn: `/usr/lib/systemd/system/elasticsearch.service`
  * Nội dung của file sẽ như sau:
-```
+```shell
 [Unit]
 Description=elasticsearch
 
@@ -29,7 +29,7 @@ WantedBy=default.target
  * Dùng Vim hoặc là Winscp tạo file ở trên thư mục: `/etc/systemd/system`, giả sử muốn tạo service keycloak thì sẽ tạo file: `keycloak.service`
  => file có đường dẫn : `/etc/systemd/system/keycloak.service`
  * Nội dung của file sẽ như sau:
-```
+```shell
 [Unit]
 Description=KeyCloak Service
 After=network.target
