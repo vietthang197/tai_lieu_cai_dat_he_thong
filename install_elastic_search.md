@@ -13,3 +13,8 @@
     `/app/programs/elasticsearch-8.1.1/bin/elasticsearch-reset-password`
    * Truy cập vào trang : https://localhost:9200/ điền account: elastic/4vY+*0HCL1Cc5Tr7ZqSA màn hình sẽ hiển thị như sau:
    ![](step_2.PNG)
+# Tắt bỏ ssl certificate cho elasticsearch
+   
+ * Mặc định elasticsearch bật ssl, nếu như ta dùng ở local không public ra bên ngoài thì hoàn toàn không cần.
+ * Để tắt ssl, truy cập vào folder config: `/app/programs/elasticsearch-8.1.1/config/elasticsearch.yml` và sửa như sau
+ ![](step_3.PNG)
